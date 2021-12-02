@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нейротренажеры.рф</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="main-header">
+                <img src="img/logo.svg" alt="Logo" class="logo-media">
+                <ul class="header-navigation__items">
+                     <div class="media-hamburger">
+                        <nav class="navbar">  
+                            <div class="ham" >  
+                                <span class="bar1"></span>  
+                                <span class="bar2"></span>  
+                                <span class="bar3"></span>  
+                            </div>  
+                            <ul class="nav-sub">  
+                                <div class="nav-sub__blog">
+                                    <li class="list-item"><a href="#" class="nav-link">Главная</a></li>  
+                                    <li class="list-item"><a href="#" class="nav-link">О компании</a></li>  
+                                    <li class="list-item"><a href="#" class="nav-link">Каталог</a></li>  
+                                    <li class="list-item"><a href="#" class="nav-link">Покупателям</a></li>  
+                                    <li class="list-item"><a href="#" class="nav-link">Доставка и оплата</a></li>  
+                                    <li class="list-item"><a href="#" class="nav-link">Акции</a></li>  
+                                    <li class="list-item"><a href="#" class="nav-link">Блог</a></li>  
+                                    <div class="header-icons__media">
+                                        <a href="https://vk.com/azatbek3" class="vk"><img src="img/vk.svg" alt="vk"></a>
+                                        <a href="https://instagram.com/dev.elnur" class="instagram"><img src="img/instagram.svg" alt="instagram"></a>
+                                        <a href="https:/whatsap.com/+998998917945" class="whatsap" id="last-blog"><img src="img/whatsap.svg" alt="whatsap"></a>
+                                    </div>
+                                </div>
+                            </ul>  
+                       </nav>  
+                     </div>
+                    <li class="header-navigation__item"><a href="#" class="header-navigation__link">Главная</a></li>
+                    <li class="header-navigation__item"><a href="#" class="header-navigation__link">О компании</a></li>
+                    <li class="header-navigation__item"><a href="#" class="header-navigation__link">Каталог</a></li>
+                    <li class="header-navigation__item"><a href="#" class="header-navigation__link">Покупателям</a></li>
+                    <li class="header-navigation__item"><a href="#" class="header-navigation__link">Доставка и оплата</a></li>
+                    <li class="header-navigation__item"><a href="#" class="header-navigation__link">Акции</a></li>
+                    <li class="header-navigation__item" id="last-blog"><a href="#" class="header-navigation__link">Блог</a></li>
+                </ul>
+                <div class="header-icons">
+                    <a href="https://vk.com/azatbek3" class="vk"><img src="img/vk.svg" alt="vk"></a>
+                    <a href="https://instagram.com/dev.elnur" class="instagram"><img src="img/instagram.svg" alt="instagram"></a>
+                    <a href="https:/whatsap.com/+998998917945" class="whatsap" id="last-blog"><img src="img/whatsap.svg" alt="whatsap"></a>
+                </div>
+            </div>
+            <div class="subtitle-header">
+                <div class="header-logo">
+                    <img src="img/logo.svg" alt="Logo">
+                </div>
+                <div class="search">
+                    <form class="header-search">
+                        <input name="q" type="text" placeholder="Что вы ищите?" class="header-search-input">
+                        <img src="img/search-logo.svg" alt="search">
+                    </form>
+                </div>
+                <div class="header-contacts">
+                    <div class="header-contacts__contact">
+                        <img src="img/phone-icon.svg" alt="phone">
+                        <h3 class="contacts-title">8 (800) 55 48 97</h3>
+                        <img src="img/messageicon.svg" alt="message" class="display-none">
+                        <h5 class="contacts-email">info@neyro-t.ru</h5>
+                    </div>
+                    <div class="header-contacts__watch">
+                        <h5 class="header-watch__title"><span>Время работы:</span> 07:00 - 19:00 по МСК</h5>
+                    </div>
+                </div>
+                <div class="notification">
+                    <a href="search-media/index.html" class="search-media__smartphone"><img src="img/search-icon__media.svg" alt="search"></a>
+                    <img src="img/user-media.svg" alt="user" class="user-media">
+                    <img src="img/corzina-media.svg" alt="basket" class="corzina-media">
+                    <img src="img/user.svg" alt="user" class="user">
+                    <img src="img/basket.svg" alt="basket" class="basket">
+                </div>
+            </div>
+            <div class="header-btn">
+                <a href="catalog/index.html" class="header-blog__btn-media">Каталог продукции</a>
+                <a href="#" class="header-blog__btn">Мозжечковая стимуляция</a>
+                <a href="#" class="header-blog__btn">Межполушарные доски</a>
+                <a href="#" class="header-blog__btn">Нейрокосички</a>
+                <a href="#" class="header-blog__btn">Балансиры</a>
+                <a href="#" class="header-blog__btn">Нейровосьмерки</a>
+                <a href="#" class="header-blog__btn" id="last-blog">Разное</a>
+            </div>
+        </div>
+    </header>
+    <section class="advice-section">
+        <div class="container">
+            <div class="main-advice">
+                <div class="advice-blog__main">
+                    <div class="advice-info">
+                        <h1 class="advice-info__title">Доска <span>Бильгоу</span></h1>
+                        <p class="advice-info__subtitle">Cпециально разработанное устройство для работы над стимуляцией мозжечка. Принцип работы балансировочной доски: Ребенок стоит на доске, которая закреплена на округлой основе, что заставляет его удерживать равновесие.</p>
+                        <div class="girl-media">
+                            <img src="img/girl 5.svg" alt="" class="girl-media__img">
+                        </div>
+                        <a href="#" class="advice-btn">Узнать подробности</a>
+                        <img src="img/girl 5.svg" alt="girl" class="girl">
+                    </div>
+                </div>
+                <div class="last-radio">
+                    <input type="radio" name="blog" class="radio">
+                    <input type="radio" name="blog" class="radio">
+                    <input type="radio" name="blog" class="radio">
+                </div>
+                <div class="advice-blog-right">
+                    <div class="advice-blog" id="main-blog">
+                        <div class="advice-blog__info">
+                            <h1 class="advice-item">Стойка <br> с мишенями-целями</h1>
+                            <p class="advice-subitem">Стойка регулируется по высоте (от 60 до 120 см) стойка, <span>На стойке расположено 5 мишеней-целей. </span></p>
+                            <a href="#" class="advice-blog__link">Подробнее <img src="img/arrow-right.svg" alt=""></a>
+                        </div>
+                        <div class="advice-image__blog" id="advice-blog__image-1">
+                            <img src="img/prod 1.svg" alt="" class="advice-image">
+                        </div>
+                    </div>
+                    <div class="advice-blog" id="pink">
+                        <div class="advice-blog__info">
+                            <h1 class="advice-item">Нейровосьмерка</h1>
+                            <p class="advice-subitem">один из тренажеров для мозжечковой стимуляции.  Для успешного выполнения <span>заданий необходимо регулировать</span>...</p>
+                            <a href="#" class="advice-blog__link">Подробнее <img src="img/arrow-right.svg" alt=""></a>
+                        </div>
+                        <div class="advice-image__blog">
+                            <img src="img/prod 2.svg" alt="" class="advice-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="goods-section">
+        <div class="container">
+            <div class="goods-title">
+                <h1 class="goods-subtitle">Товары месяца</h1>
+                <div class="goods-btn__blog">
+                    <a href="#" class="goods-btn display-none">В каталог <img src="img/arrow-right__black.svg" alt=""></a>
+                    <a href="#" class="goods-btn goods-btn__media" id="title-blog">Еще <img src="img/arrow-right__black.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="main-goods">
+                <div class="goods-blog">
+                    <div class="goods-btn__blog">
+                        <a href="#" class="btn-blog">-30%</a>
+                        <a href="#" class="btn-blog__orange">Реконмендуем</a>
+                    </div>
+                    <div class="main-image__blog">
+                        <img src="img/image 1.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Доска Бильгоу <br> для мозжечковой стимуляции</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title display-none">2 490 р. <br> <span>3 470 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog" id="last-blog-media__smartphone">
+                    <div class="main-image__blog">
+                        <img src="img/image 2.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Набор мячей с фиксацией <br> на одежде</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title display-none">650 р. <br> <span>935 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog display-none__media" id="last-blog-media">
+                    <div class="goods-btn__blog">
+                        <a href="#" class="btn-blog">-30%</a>
+                        <a href="#" class="btn-blog__orange">Реконмендуем</a>
+                    </div>
+                    <div class="main-image__blog">
+                        <img src="img/image 3.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title" id="title-blog">Мишень напольная цветная</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">1 590 р. <br> <span>2 000 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog display-none" id="last-blog">
+                    <div class="main-image__blog">
+                        <img src="img/image 4.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Сумка для тренажеров Бильгоу</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">2 490 р. <br> <span>3 000 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-section">
+        <div class="container">
+            <div class="goods-title">
+                <h1 class="goods-subtitle">Для нейропсихологов</h1>
+                <div class="goods-btn__blog">
+                    <a href="#" class="goods-btn">В каталог <img src="img/arrow-right__black.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="main-blog">
+                <img src="img/Видео.svg" alt="neuropsycholog" class="neuropsycholog">
+                <img src="img/neuropsicholog-media.svg" alt="" class="neuropsycholg-media">
+                <div class="goods-blog">
+                    <div class="goods-btn__blog">
+                        <a href="#" class="btn-blog">-30%</a>
+                        <a href="#" class="btn-blog__orange">Рекамендуем</a>
+                    </div>
+                    <div class="main-image__blog">
+                        <img src="img/image 1.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Доска Бильгоу <br> для мозжечковой стимуляции</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">2 490 р. <br> <span>3 470 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog display-none" id="last-blog">
+                    <div class="main-image__blog">
+                        <img src="img/image 2.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Набор мячей с фиксацией <br> на одежде</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">650 р. <br> <span>935 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="goods-section">
+        <div class="container">
+            <div class="goods-title">
+                <h1 class="goods-subtitle">Нейротренажеры</h1>
+                <div class="goods-btn__blog">
+                    <a href="#" class="goods-btn">Далее <img src="img/arrow-right__black.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="main-goods">
+                <div class="goods-blog">
+                    <div class="goods-btn__blog">
+                        <a href="#" class="btn-blog">-30%</a>
+                        <a href="#" class="btn-blog__orange">Рекамендуем</a>
+                    </div>
+                    <div class="main-image__blog">
+                        <img src="img/image 1.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Доска Бильгоу <br> для мозжечковой стимуляции</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">2 490 р. <br> <span>3 470 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog" id="last-blog-media__smartphone">
+                    <div class="main-image__blog">
+                        <img src="img/image 2.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Набор мячей с фиксацией <br> на одежде</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">650 р. <br> <span>935 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog" id="display-none__media">
+                    <div class="goods-btn__blog">
+                        <a href="#" class="btn-blog">-30%</a>
+                        <a href="#" class="btn-blog__orange">Реконмендуем</a>
+                    </div>
+                    <div class="main-image__blog">
+                        <img src="img/image 3.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title" id="title-blog">Мишень напольная цветная</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">1 590 р. <br> <span>2 000 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+                <div class="goods-blog display-none" id="last-blog">
+                    <div class="main-image__blog">
+                        <img src="img/image 4.svg" alt="" class="main-image">
+                    </div>
+                    <h3 class="goods-blog__title">Сумка для тренажеров Бильгоу</h3>
+                    <p class="goods-blog__subtitle">Тренажеров для мозжечковой стимуляции.</p>
+                    <div class="price-blog">
+                        <h3 class="prive-title">2 490 р. <br> <span>3 000 р.</span></h3>
+                        <div class="price">
+                            <h4 class="price-number">1</h4>
+                            <img src="img/arrow-top-down.svg" alt="">
+                            <a href="#" class="price-btn">Купить</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-last__price">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-me-section">
+        <div class="container">
+            <h1 class="about-me__main-title">Коротко о нас</h1>
+            <div class="main-about__me">
+                <div class="about-me__image">
+                    <img src="img/Видео-about__me.svg" alt="" class="display-desctop">
+                    <img src="img/Видео-media.svg" alt="" class="display-desctop desplay-media">
+                </div>
+                <div class="about-me__info">
+                    <h3 class="about-me__title">Что такое доска Бильгоу?</h3>
+                    <p class="about-me__subtitle">История программы мозжечковой стимуляции родилась ее началась в 60е годы XX века. Как-то раз американский педагог Фрэнк Бильгоу, который работал в то время в школе<span>, заметил интересную закономерность: ученики, которые на переменах играли в игры, связанные с балансировкой.</span></p>
+                    <h3 class="about-me__title">Лицензии и cертификаты</h3>
+                    <div class="about-me__info-image">
+                        <img src="img/CERTIFICATE-1.png" alt="CERTIFICATE" class="certificat">
+                        <img src="img/CERTIFICATE-2.png" alt="CERTIFICATE" class="certificat">
+                        <img src="img/CERTIFICATE-3.png" alt="CERTIFICATE" class="certificat">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews-section">
+        <div class="container">
+            <div class="reviews-title">
+                <h1 class="reviews-main__title">Отзывы</h1>
+                <div class="reviews-blog__btn"><a href="#" class="reviews-btn">Смотреть все <img src="img/arrow-right__black.svg" alt=""></a></div>
+            </div>
+            <div class="main-reviews">
+                <div class="reviews">
+                    <div class="reviews-user">
+                        <div class="main-user">
+                            <img src="img/Косов.png" alt="">
+                            <div class="reviews-info">
+                                <h3 class="reviews-user__title">Косов Андрей Владимирович</h3>
+                                <h5 class="reviews-user__subtitle">г. Пермь</h5>
+                            </div>
+                        </div>
+                        <p class="paragraph-subtitle">Двухсторонняя цветная разметка, есть антискользящий слой, покрыт лаком в несколько слоев, гладкий, яркий, классный, Металлический крепеж в ногах, нет острых углов, ножки поворотные, есть гарантия и сертификат качества.</p>
+                    </div>
+                </div>
+                <div class="reviews display-none" id="display-none__media">
+                    <div class="reviews-user">
+                        <div class="main-user">
+                            <img src="img/Анна.png" alt="">
+                            <div class="reviews-info">
+                                <h3 class="reviews-user__title">Анна Анатольевна</h3>
+                                <h5 class="reviews-user__subtitle">г. Москва</h5>
+                            </div>
+                        </div>
+                        <p class="paragraph-subtitle">Для развития речи и координации у моей дочери логопед в детском центре посоветовал заниматься на специальной балансировочной доске по методике Бельгоу – сделать ее самостоятельно или купить уже готовую.</p>
+                    </div>
+                </div>
+                <img src="img/reviews.svg" alt="Neurologist" class="display-none__media">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-register">
+                <h3 class="footer-register__title">Новинки и акции у вас в почте</h3>
+                <form class="footer-register__form">
+                    <input type="email" placeholder="Ваш e-mail адрес" class="footer-register__input">
+                    <a href="https:/instagram.com/dev.elnur" class="form-btn">Подписаться</a>
+                </form>
+                <div class="footer-register__telephone-number">
+                    <div class="main-footer__telephone">
+                        <div class="telephone">
+                            <img src="img/telephone.svg" alt="" class="telephone-icon">
+                            <h3 class="telephone-number">8 (800) 55 48 97</h3>
+                        </div>
+                        <h5 class="telephone-title">Звонок бесплатный</h5>
+                    </div>
+                </div>
+                <form class="footer-register__form-media">
+                    <input type="email" placeholder="Ваш e-mail адрес" class="footer-register__input">
+                    <a href="https:/instagram.com/dev.elnur" class="form-btn">Подписаться</a>
+                </form>
+                <div class="footer-register__btn">
+                    <a href="https://t.me/elnuranvarbek" class="footer-btn">Задать вопрос</a>
+                    <a href="#" class="footer-btn last-footer__btn" id="last-blog">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="main-footer">
+                <div class="footer-logo">
+                    <img src="img/Лого.svg" alt="">
+                </div>
+                <div class="footer-blog">
+                    <h3 class="footer-blog__title">Информация</h3>
+                    <ul class="footer-navigation__items">
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Главная</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Кредит</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Возврат</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Покупателям</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Доставка и оплата</a></li>
+                    </ul>
+                </div>
+                <div class="footer-blog">
+                    <h3 class="footer-blog__title">Вебинар</h3>
+                    <ul class="footer-navigation__items">
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Психолог</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Логопед</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Дефектолог</a></li>
+                    </ul>
+                </div>
+                <div class="footer-blog">
+                    <h3 class="footer-blog__title">Новости</h3>
+                    <ul class="footer-navigation__items">
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Акции</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Блог</a></li>
+                    </ul>
+                </div>
+                <div class="footer-blog" id="last-blog">
+                    <h3 class="footer-blog__title">Контакты</h3>
+                    <ul class="footer-navigation__items">
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Время работы: 07:00 - 19:00 по МСК</a></li>
+                        <li class="footer-navigatoin__item"><a href="https://xn--80ajabep0adhtbft7k.xn--p1ai/" class="footer-navigation__link">info@neyro-t.ru</a></li>
+                        <li class="footer-navigatoin__item"><a href="#" class="footer-navigation__link">Свердловская обл., г.Новоуральск, <br>ул. Фрунзе оф.3</a></li>
+                        <div class="footer-icons">
+                            <a href="https://vk.com/azatbek3" class="vk"><img src="img/vk.svg" alt="vk"></a>
+                            <a href="https://instagram.com/dev.elnur" class="instagram"><img src="img/instagram.svg" alt="instagram"></a>
+                            <a href="https:/whatsap.com/+998998917945" class="whatsap" id="last-blog"><img src="img/whatsap.svg" alt="whatsap"></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="last-footer">
+                <h3 class="last-footer__title">Политика обработки персональных данных</h3>
+                <div class="last-footer__cards">
+                    <img src="img/mir.svg" alt="МИР">
+                    <img src="img/master card.svg" alt="MasterCard" class="card">
+                    <img src="img/visa.svg" alt="VISA">
+                </div>
+                <h3 class="last-footer__title" id="right">Copyright &copy; 2021 ООО “Разработал elnuranvarbek”</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>

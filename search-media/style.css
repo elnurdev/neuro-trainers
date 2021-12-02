@@ -1,0 +1,133 @@
+body {
+  font-family: 'Blogger Sans', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 355px;
+  margin: auto;
+}
+
+.main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0 20px 0;
+}
+
+.main-title .mob-toogl__title {
+  width: 50%;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.main-title .close {
+  width: 50%;
+  display: block;
+}
+
+.main-title .close .close-icon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-title .close .close-icon .close-stick__after {
+  width: 20px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: #333;
+}
+
+.main-title .close .close-icon .close-stick__before {
+  width: 20px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #333;
+}
+
+.form-search {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border: #eee solid 1px;
+  border-radius: 10px;
+  -webkit-transition: border .4s;
+  transition: border .4s;
+  background: #fff;
+}
+
+.form-search .form-search__input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #fff;
+  padding: 14px 0 14px 18px;
+  border-radius: 10px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.form-search .fsearch-icon__blog {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.search-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-btn .btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  background-color: #F07FAE;
+  border-color: #F07FAE;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
