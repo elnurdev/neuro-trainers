@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-LightItalic.eot');
+    src: local('Blogger Sans Light Italic'), local('BloggerSans-LightItalic'),
+        url('BloggerSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-LightItalic.woff2') format('woff2'),
+        url('BloggerSans-LightItalic.woff') format('woff'),
+        url('BloggerSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-Italic.eot');
+    src: local('Blogger Sans Italic'), local('BloggerSans-Italic'),
+        url('BloggerSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-Italic.woff2') format('woff2'),
+        url('BloggerSans-Italic.woff') format('woff'),
+        url('BloggerSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-BoldItalic.eot');
+    src: local('Blogger Sans Bold Italic'), local('BloggerSans-BoldItalic'),
+        url('BloggerSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-BoldItalic.woff2') format('woff2'),
+        url('BloggerSans-BoldItalic.woff') format('woff'),
+        url('BloggerSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-MediumItalic.eot');
+    src: local('Blogger Sans Medium Italic'), local('BloggerSans-MediumItalic'),
+        url('BloggerSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-MediumItalic.woff2') format('woff2'),
+        url('BloggerSans-MediumItalic.woff') format('woff'),
+        url('BloggerSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-Light.eot');
+    src: local('Blogger Sans Light'), local('BloggerSans-Light'),
+        url('BloggerSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-Light.woff2') format('woff2'),
+        url('BloggerSans-Light.woff') format('woff'),
+        url('BloggerSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-Bold.eot');
+    src: local('Blogger Sans Bold'), local('BloggerSans-Bold'),
+        url('BloggerSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-Bold.woff2') format('woff2'),
+        url('BloggerSans-Bold.woff') format('woff'),
+        url('BloggerSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans.eot');
+    src: local('Blogger Sans'), local('BloggerSans'),
+        url('BloggerSans.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans.woff2') format('woff2'),
+        url('BloggerSans.woff') format('woff'),
+        url('BloggerSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('BloggerSans-Medium.eot');
+    src: local('Blogger Sans Medium'), local('BloggerSans-Medium'),
+        url('BloggerSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BloggerSans-Medium.woff2') format('woff2'),
+        url('BloggerSans-Medium.woff') format('woff'),
+        url('BloggerSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
